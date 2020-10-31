@@ -1,6 +1,7 @@
 const { QueryTypes, Sequelize } = require('sequelize');
 const bcryptjs = require('bcryptjs');
 const JWT = require('jsonwebtoken');
+
 const ConfigDatabase = require('../config/database');
 const connection = new Sequelize(ConfigDatabase);
 
